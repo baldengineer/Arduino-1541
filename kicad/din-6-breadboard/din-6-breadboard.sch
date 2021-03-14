@@ -688,10 +688,10 @@ DATA3
 Text Label 5200 6750 0    50   ~ 0
 RESET3
 $Comp
-L Connector:TestPoint_Small TP?
+L Connector:TestPoint_Small TP2
 U 1 1 605DA4E7
 P 3550 2850
-F 0 "TP?" H 3598 2896 50  0000 L CNN
+F 0 "TP2" H 3598 2896 50  0000 L CNN
 F 1 "GND" H 3598 2805 50  0000 L CNN
 F 2 "My Libraries:Harwin-S1751-46-Test-Point" H 3750 2850 50  0001 C CNN
 F 3 "~" H 3750 2850 50  0001 C CNN
@@ -701,10 +701,10 @@ $EndComp
 Text Label 3350 2850 0    50   ~ 0
 GND
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 605DA4EE
 P 3350 2900
-F 0 "#PWR?" H 3350 2650 50  0001 C CNN
+F 0 "#PWR0101" H 3350 2650 50  0001 C CNN
 F 1 "GND" H 3355 2727 50  0000 C CNN
 F 2 "" H 3350 2900 50  0001 C CNN
 F 3 "" H 3350 2900 50  0001 C CNN
@@ -715,4 +715,52 @@ Wire Wire Line
 	3350 2850 3550 2850
 Wire Wire Line
 	3350 2900 3350 2850
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 60621BCD
+P 6300 3450
+F 0 "J?" H 6380 3492 50  0000 L CNN
+F 1 "3v3" H 6380 3401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6300 3450 50  0001 C CNN
+F 3 "~" H 6300 3450 50  0001 C CNN
+	1    6300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3450 5950 3450
+Wire Wire Line
+	5850 3650 5700 3650
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 606247DC
+P 6050 3650
+F 0 "J?" H 6130 3692 50  0000 L CNN
+F 1 "5v" H 6130 3601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6050 3650 50  0001 C CNN
+F 3 "~" H 6050 3650 50  0001 C CNN
+	1    6050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6062915F
+P 5950 3450
+F 0 "#PWR?" H 5950 3300 50  0001 C CNN
+F 1 "+3.3V" H 5965 3623 50  0000 C CNN
+F 2 "" H 5950 3450 50  0001 C CNN
+F 3 "" H 5950 3450 50  0001 C CNN
+	1    5950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6062963D
+P 5700 3650
+F 0 "#PWR?" H 5700 3500 50  0001 C CNN
+F 1 "+5V" H 5715 3823 50  0000 C CNN
+F 2 "" H 5700 3650 50  0001 C CNN
+F 3 "" H 5700 3650 50  0001 C CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
