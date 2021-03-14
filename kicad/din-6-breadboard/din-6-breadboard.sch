@@ -716,10 +716,10 @@ Wire Wire Line
 Wire Wire Line
 	3350 2900 3350 2850
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J5
 U 1 1 60621BCD
 P 6300 3450
-F 0 "J?" H 6380 3492 50  0000 L CNN
+F 0 "J5" H 6380 3492 50  0000 L CNN
 F 1 "3v3" H 6380 3401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6300 3450 50  0001 C CNN
 F 3 "~" H 6300 3450 50  0001 C CNN
@@ -731,10 +731,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 3650 5700 3650
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J6
 U 1 1 606247DC
 P 6050 3650
-F 0 "J?" H 6130 3692 50  0000 L CNN
+F 0 "J6" H 6130 3692 50  0000 L CNN
 F 1 "5v" H 6130 3601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6050 3650 50  0001 C CNN
 F 3 "~" H 6050 3650 50  0001 C CNN
@@ -742,10 +742,10 @@ F 3 "~" H 6050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0102
 U 1 1 6062915F
 P 5950 3450
-F 0 "#PWR?" H 5950 3300 50  0001 C CNN
+F 0 "#PWR0102" H 5950 3300 50  0001 C CNN
 F 1 "+3.3V" H 5965 3623 50  0000 C CNN
 F 2 "" H 5950 3450 50  0001 C CNN
 F 3 "" H 5950 3450 50  0001 C CNN
@@ -753,10 +753,10 @@ F 3 "" H 5950 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0103
 U 1 1 6062963D
 P 5700 3650
-F 0 "#PWR?" H 5700 3500 50  0001 C CNN
+F 0 "#PWR0103" H 5700 3500 50  0001 C CNN
 F 1 "+5V" H 5715 3823 50  0000 C CNN
 F 2 "" H 5700 3650 50  0001 C CNN
 F 3 "" H 5700 3650 50  0001 C CNN
