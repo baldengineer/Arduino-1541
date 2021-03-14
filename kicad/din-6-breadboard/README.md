@@ -2,7 +2,7 @@
 
 Contains level shifter to communicate between 3v3 and 5v Arduino boards.
 
-[!1541 breadboard adapter for arduino](https://github.com/baldengineer/Arduino-1541/blob/master/images/arduino-1541-breadboard-rev1.jpg)
+![1541 breadboard adapter for arduino](https://github.com/baldengineer/Arduino-1541/blob/master/images/arduino-1541-breadboard-rev1.jpg)
 
 
 ## Streaming notes
